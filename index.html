@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gostos Musicais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gostos Musicais</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="desenvolvedores.html">Desenvolvedores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cadastro de Gostos Musicais</h2>
+            <form id="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="musica">Música Favorita:</label>
+                <input type="text" id="musica" required>
+
+                <label for="artista">Nome do Artista:</label>
+                <input type="text" id="artista" required>
+
+                <button type="submit">Gravar</button>
+            </form>
+        </section>
+
+        <section>
+            
+            <table>
+                <h2>Lista de Gostos Musicais</h2>
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Nome</th>
+                        <th onclick="sortTable(1)">Música Favorita</th>
+                        <th onclick="sortTable(2)">Nome do Artista</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela">
+                    <tr>
+                        <td>Marie Estar</td>
+                        <td>Like a Rolling Stone</td>
+                        <td>Bob Dylan</td>
+                    </tr>
+                    <tr>
+                        <td>Cícere Romã</td>
+                        <td>Imagine</td>
+                        <td>John Lennon</td>
+                    </tr>
+                    <tr>
+                        <td>Awerton Falipe</td>
+                        <td>Smells Like Teen Spirit</td>
+                        <td>Nirvana</td>
+                    </tr>
+                    <tr>
+                        <td>Mario Cecílio</td>
+                        <td>Nothing Else Matters</td>
+                        <td>Metallica</td>
+                    </tr>
+                    <tr>
+                        <td>Ronnya Danisa</td>
+                        <td>The Emptiness Machine</td>
+                        <td>Linkin Park</td>
+                    </tr>
+                    <tr>
+                        <td>Nalisson Sant</td>
+                        <td>Zap Zum</td>
+                        <td>Pablo Vittar</td>
+                    </tr>
+                    <tr>
+                        <td>Lay Lin</td>
+                        <td>Iguaria</td>
+                        <td>Luísa Sonza</td>
+                    </tr>
+                    <tr>
+                        <td>Naruto Uzumaki</td>
+                        <td>Primeiros Erros</td>
+                        <td>Capital Inicial</td>
+                    </tr>
+                    <tr>
+                        <td>Hinata Hyuga</td>
+                        <td>A sua Maneira</td>
+                        <td>Capital Inicial</td>
+                    </tr>
+                    <tr>
+                        <td>Hambúrguer da Silva</td>
+                        <td>Meu Lanchinho</td>
+                        <td>Galinha Pintadinha</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>IFRN Campus Santa Cruz</p>
+        <p>Trabalho de Autoria Web</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+        <p>Rannya Denise Afonso da Costa e Maria Cecília Nogueira Alves</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

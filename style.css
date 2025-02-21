@@ -1,0 +1,137 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background: #ff99cc;
+    padding: 15px;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #f5a9bc;
+    font-family: 'Georgia', serif;
+}
+footer {
+    background: #ff99cc;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;  
+    border-top: 2px solid #f8baee;
+    color: #333;
+}
+
+footer p {
+    font-size: 16px;
+}
+form label {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em; 
+    word-spacing: 5px;
+}
+form button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em; 
+    word-spacing: 5px;
+}
+form input {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em; 
+    flex-grow: 1; 
+    padding: 5px; 
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+section {
+    text-align: center;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.dev {
+    gap: 0px; 
+    text-align: center;
+}
+.dev {
+    margin: auto;
+    width: 1300px;
+    gap: 10px; 
+}
+.dev img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 10px solid #551c4b; 
+    display: block;
+    margin: auto; 
+    margin-bottom: 5px; 
+    margin-top: 40px;
+    text-align: center;
+}
+.dev h3 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.dev p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em; 
+    color: #333;
+    font-style: italic;
+    text-align: center; 
+    margin: 5px; 
+}
